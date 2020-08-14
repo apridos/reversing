@@ -70,6 +70,8 @@ _Complete compilation_:
 root@coyote:~# gcc hello.c -o executable
 ```
 
+
+
 > Machine code is binary (1’s and 0’s) code that can be executed directly by the CPU. If you were to open a machine code file in a text editor you would see garbage, including unprintable characters (no, not those unprintable characters 😉 ).
 >
 > Object code is a portion of machine code that hasn’t yet been linked into a complete program. It’s the machine code for one particular library or module that will make up the completed product. It may also contain placeholders or offsets not found in the machine code of a completed program. The linker will use these placeholders and offsets to connect everything together.
