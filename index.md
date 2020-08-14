@@ -11,4 +11,4 @@ Kunjungi [profilku](https://apridosimarmata.com) dan mari berteman.
 
 **0x00**
 
-**0x01 Apa itu [Reverse Engineering](./0x01/README.md)**
+**0x01 [Apa itu Reverse Engineering](./0x01/README.md)**
