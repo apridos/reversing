@@ -21,7 +21,7 @@ int main(){
 }
 ```
 
-### **_Preprocessing_**
+#### **_Preprocessing_**
 
 Pada tahap ini, semua komentar pada kode akan dibuang. 
 Semua *macro* akan digantikan dengan nilai yang sebenarnya dan juga berkas dari _header_ yang berekstensi **.h** akan ditambahkan. 
@@ -36,7 +36,7 @@ Berhenti setelah _preprocessing_ selesai :
 root@coyote:~# gcc -E hello.c
 ```
 
-### **_Compilation_**
+#### **_Compilation_**
 
 Menggunakan *compiler*, berkas yang sudah melewati tahap _preprocessing_ kemudian dibuatkan _IR (Intermediate Representation) code_-nya. 
 Pada akhir proses ini akan diperoleh berkas baru berekstensi **.s** yang sebenarnya berbentuk *assembly code*.
@@ -49,7 +49,7 @@ Berhenti setelah _compilation_ selesai :
 ```
 root@coyote:~# gcc -S hello.c
 ```
-### **_Assembly_**
+#### **_Assembly_**
 
 Asssembler kemudian menerjemahkan _IR code_ ke dalam _object code_ dengan ekstensi berkas **.o** di UNIX atau **.obj** di DOS.
 
@@ -58,7 +58,7 @@ Berhenti setelah _assembly_ selesai :
 root@coyote:~# gcc -c hello.c
 ```
 
-### **_Linking_**
+#### **_Linking_**
 
 Kita tahu pada program yang ditulis dalam bahasa C menggunakan banyak fungsi. 
 Fungsi-fungsi ini adalah _pre-compiled_, dan _object code_-nya sudah tersimpan dengan ekstensi **.a** atau **.lib**. 
