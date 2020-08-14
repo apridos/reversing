@@ -1,11 +1,13 @@
-## Selamat datang!
+## ˈnänsəns
 
-_Repository_ ini adalah tempat saya mendokmentasikan proses belajar saya mengenai _reverse engineering_.
-You can use the [editor on GitHub](https://github.com/apridos/reversing/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Semoga dokumentasi belajarku mengenai _reverse engineering_ membantumu.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Kunjungi [profilku](https://apridosimarmata.com) dan mari berteman.
 
-### Markdown
+> “The people who are crazy enough to think they can change the world are the ones who do.”
+> ― Rob Siltanen 
+
+### 0x00
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
