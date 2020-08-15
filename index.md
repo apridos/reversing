@@ -7,7 +7,7 @@ Kunjungi [profilku](https://apridosimarmata.com) dan mari berteman.
 > “The people who are crazy enough to think they can change the world are the ones who do.”
 > ― Rob Siltanen 
 
-### Memuali dari 0x00 bukan hal yang tabu : D
+### Memulai dari 0x00 bukan hal yang tabu : D
 
 
 **0x01 [Apa itu Reverse Engineering](./0x01/README.md)**
