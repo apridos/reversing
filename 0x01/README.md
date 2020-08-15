@@ -1,16 +1,25 @@
 # Apa itu Software Reverse Engineering?
 
 Merupakan proses analisis terhadap sebuah software yang kita tidak miliki _source code_-nya. 
-Analisis yang kita lakukan bertujuan untuk mengekstraksi informasi demi mengetahui bagaimana _software_ tersebut bekerja atau bahkan menemukan bug. 
-Proses ini dilakukan dengan mengamati perilaku _software_ pada abstraksi paling rendah, yaitu _machine code_.
+Analisis yang kita lakukan bertujuan untuk mendapat informasi demi mengetahui bagaimana _software_ tersebut bekerja atau bahkan untuk menemukan bug. 
+Proses ini dilakukan dengan mengamati perilaku _software_ pada abstraksi paling rendah, yaitu pada tingkat _machine code_.
 
-Kita juga mengetahui bahwa pada umumnya _software_ ditulis pada bahasa tingkat tinggi seperti C, C++, Python dan lainnya. 
-Pada akhirnya, kode ini nantinya akan diterjemahkan ke dalam bahasa mesin (_machine code_) – serangkaian _bytes_ yang dimengerti oleh CPU. 
+> Machine code is binary (1’s and 0’s) code that can be executed directly by the CPU. If you were to open a machine code file in a text editor you would see garbage, including unprintable characters (no, not those unprintable characters 😉 ).
+>
+> _https://stackoverflow.com/questions/466790/assembly-code-vs-machine-code-vs-object-code_
+
+Kita juga mengetahui bahwa pada umumnya _software_ dibuat menggunakan bahasa tingkat tinggi seperti C, C++, Python dan lainnya. 
+Pada akhirnya, kode ini akan diterjemahkan ke dalam bahasa mesin (_machine code_) – serangkaian _bytes_ yang dimengerti oleh CPU. 
 Proses mengkonstruksi kembali _machine code_ ke dalam bahasa Assembly disebut dengan _disassembly_.
+
+> Assembly code is plain-text and (somewhat) human read-able source code that mostly has a direct 1:1 analog with machine instructions. This is accomplished using mnemonics for the actual instructions, registers, or other resources. Examples include JMP and MULT for the CPU’s jump and multiplication instructions. Unlike machine code, the CPU does not understand assembly code. You convert assembly code to machine with the use of an assembler or a compiler, though we usually think of compilers in association with high-level programming language that are abstracted further from the CPU instructions.
+>
+> _https://stackoverflow.com/questions/466790/assembly-code-vs-machine-code-vs-object-code_
+
 
 ## Proses Compiling pada Program C
 
-Berikut ini adalah program hello.c:
+Berikut ini adalah program `hello.c`:
 
 ```
 #include<stdio.h>
@@ -71,14 +80,8 @@ root@coyote:~# gcc hello.c -o executable
 ```
 
 
-
-> Machine code is binary (1’s and 0’s) code that can be executed directly by the CPU. If you were to open a machine code file in a text editor you would see garbage, including unprintable characters (no, not those unprintable characters 😉 ).
->
 > Object code is a portion of machine code that hasn’t yet been linked into a complete program. It’s the machine code for one particular library or module that will make up the completed product. It may also contain placeholders or offsets not found in the machine code of a completed program. The linker will use these placeholders and offsets to connect everything together.
 >
-> Assembly code is plain-text and (somewhat) human read-able source code that mostly has a direct 1:1 analog with machine instructions. This is accomplished using mnemonics for the actual instructions, registers, or other resources. Examples include JMP and MULT for the CPU’s jump and multiplication instructions. Unlike machine code, the CPU does not understand assembly code. You convert assembly code to machine with the use of an assembler or a compiler, though we usually think of compilers in association with high-level programming language that are abstracted further from the CPU instructions.
->
-> _https://stackoverflow.com/questions/466790/assembly-code-vs-machine-code-vs-object-code_
 
 
 ### Referensi
